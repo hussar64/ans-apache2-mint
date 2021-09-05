@@ -1,0 +1,8 @@
+---
+  - name: Check for apache and install if mia
+    hosts: local
+    task:
+      - name: Install httpd if mia
+         yum:
+           name: httpd
+           state: latest

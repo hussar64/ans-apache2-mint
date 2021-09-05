@@ -1,0 +1,7 @@
+---
+  - name: Check for apache and install if mia
+#    become: True
+    apt:
+      name: apache2
+      state: latest
+
