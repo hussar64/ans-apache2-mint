@@ -1,9 +1,0 @@
----
-  - name: Check for apache and install if mia
-    hosts: local
-    tasks:
-      - name: Install httpd if mia
-        apt:
-          name: apache2
-          state: latest
-
